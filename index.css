@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.get-in-touch {
+  text-align: center;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.info li svg {
+  color: #08006c;
+  /* margin: 25px; */
+}
+
+.info li p {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.c-header {
+  color: #08006c;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+}
+
+.c-parg {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.svg-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #ecf6ff;
+  border-radius: 15px;
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin: 80px 0 40px 0;
+}
+
+.input-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.msg-input {
+  height: 100%;
+}
+
+.input-wrapper input {
+  border: none;
+  background-color: rgba(132, 151, 187, 0.18);
+  margin: 5px 0 15px 0;
+}
+
+.input-wrapper > div:nth-child(1) input {
+  height: 32px;
+}
+
+.input-wrapper > div:nth-child(1) label {
+  text-align: start;
+}
